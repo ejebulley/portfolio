@@ -1,0 +1,76 @@
+nav {
+    background-color: #0779E4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+/* applying flexing to the nav-items */
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* width: 70%; */
+    gap: 50px;
+
+}
+
+/* adding a class to apply a white text color  */
+.text-white {
+    color: white;
+}
+
+/* adding a background image to our hero section  */
+.hero{
+    background-image: url(/assets/images/hero-bg.jpg);
+    height: 100vh;
+    /* background-position: center; */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title{
+    font-size: 40px;
+}
+.subtitle{
+    font-size: 20px;
+}
+
+.hero-content{
+    width: 50%;
+    padding-top: 10px;
+    margin: 100px;
+    
+}
+
+.hero-content h1{
+    margin-bottom: 20px;
+}
+
+.hero-content p{
+    margin-bottom: 20px;
+}
+
+.button{
+    background-color: #327acc; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+
+
+.button:hover {
+  background-color: #010c08; /* Green */
+  color: white;
+}
+
