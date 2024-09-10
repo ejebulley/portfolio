@@ -40,7 +40,7 @@ nav {
     font-size: 20px;
 }
 
-.hero-content{
+/* .hero-content{
     width: 50%;
     padding-top: 10px;
     margin: 100px;
@@ -53,9 +53,9 @@ nav {
 
 .hero-content p{
     margin-bottom: 20px;
-}
+} */
 
-.button{
+/* .button{
     background-color: #327acc; 
     border: none;
     color: white;
@@ -70,7 +70,7 @@ nav {
 
 
 .button:hover {
-  background-color: #010c08; /* Green */
+  background-color: #010c08; 
   color: white;
-}
+} */
 
