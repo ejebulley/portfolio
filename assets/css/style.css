@@ -24,7 +24,7 @@ nav {
 
 /* adding a background image to our hero section  */
 .hero{
-    background-image: url(/assets/images/hero-bg.jpg);
+    background-image: url(../images/hero-bg.jpg);
     height: 100vh;
     /* background-position: center; */
     background-size: cover;
@@ -39,6 +39,8 @@ nav {
 .subtitle{
     font-size: 20px;
 }
+
+
 
 /* .hero-content{
     width: 50%;
